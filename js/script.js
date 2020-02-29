@@ -1,11 +1,12 @@
 document.getElementById('yes').onclick = function() {
     var pass = document.getElementById('pass').value;
+    var yourPass = 1234;
 
-    if (pass == '1234') {
+    if (pass == yourPass) {
         document.getElementById('out').innerHTML = 'Подтверждено!';
     };
 
-    if (pass != '1234') {
-        document.getElementById('out').innerHTML = 'пороль не верен! Введите ещё раз.'
+    if (pass != yourPass) {
+        document.getElementById('out').innerHTML = 'Пороль не верен! Введите ещё раз.';
     }
 };
