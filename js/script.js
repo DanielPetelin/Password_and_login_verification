@@ -11,9 +11,9 @@ document.getElementById('yes').onclick = function() {
     // создадим переменную для нашего пароля
     var pass = document.getElementById('pass').value;
     // создадим наш логин, чтобы было удобнее
-    var yourLogin = 'Егор';
+    var yourLogin = 'Данил';
     // создадим переменную пароля, чтобы было удобнее
-    var yourPass = 66;
+    var yourPass = 1234;
 
     // делаем проверку для пароля и логина
     if (pass == yourPass && login == yourLogin) {
